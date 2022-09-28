@@ -1,0 +1,19 @@
+.messages_list {
+    width: 60%;
+    padding-left: 0;
+    margin: 0 20% 0 20%;
+}
+
+@media screen and (max-height: 670px) {
+    .messages_list {
+        width: 90%;
+        margin: 0 5% 0 5%;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .messages_list {
+        width: 90%;
+        margin: 0 5% 0 5%;
+    }
+}

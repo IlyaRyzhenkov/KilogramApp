@@ -1,0 +1,15 @@
+.chat_selection_panel {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    background-color: lightblue;
+    border-right: solid lightgrey 10px;
+    height: 100vh;   
+}
+
+.add_new_chat_button {
+    position: absolute;
+    width: 200px;
+    height: 60px;
+    background: deepskyblue;   
+}

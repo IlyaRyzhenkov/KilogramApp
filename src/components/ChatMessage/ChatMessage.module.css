@@ -1,0 +1,86 @@
+.message_item {
+    width: 100%;
+    height: auto;
+    border: solid lightgrey 3px;
+    list-style: none;
+    margin-bottom: 5px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 630px) {
+    .message_item {
+        padding: 5px;
+    }
+}
+
+.message_text {
+    font-size: 20px;
+    overflow-wrap: break-word;
+    margin-top: 5px;
+    margin-left: 8px
+}
+
+.message_date {
+    font-size: 16px;
+    color: darkgray;
+    text-align: right;
+}
+
+.user_info {
+    height: 50px;
+    display: flex;
+}
+
+.user_name {
+    font-size: 20px;
+    overflow-wrap: break-word;
+    margin-top: 13px;
+    margin-left: 13px;
+}
+
+.user_avatar {
+    width: 50px;
+    height: 50px;
+}
+
+@media screen and (max-width: 630px) {
+    .user_info {
+        height: 30px;
+    }
+
+    .message_text {
+        font-size: 14px;
+    }
+
+    .user_name {
+        font-size: 14px;
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+
+    .message_date {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-height: 670px) {
+    .user_info {
+        height: 30px;
+    }
+
+    .message_text {
+        font-size: 14px;
+    }
+
+    .user_name {
+        font-size: 14px;
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+
+    .message_date {
+        font-size: 12px;
+    }
+}

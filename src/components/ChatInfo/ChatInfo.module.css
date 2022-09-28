@@ -1,0 +1,24 @@
+.chat_name {
+    font-size: 20px;
+    margin: 5px 10px;
+    line-height: 40px;
+}
+
+.chat_info_wrapper {
+    display: flex;
+    padding: 5px;
+    height: 50px;
+    background-color: lightskyblue;
+}
+
+@media screen and (max-width: 630px) {
+    .chat_info_wrapper {
+        width: calc(100vw - 220px);
+        height: 30px;
+    }
+
+    .chat_name {
+        margin-left: 5px;
+        line-height: 20px;
+    }
+}

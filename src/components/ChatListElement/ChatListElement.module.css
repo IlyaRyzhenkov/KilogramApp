@@ -1,0 +1,22 @@
+.chat_list_element {
+    width: 184px;
+    height: auto;
+    list-style: none;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.chat_name {
+    font-size: 20px;
+    overflow-wrap: break-word;
+    margin: auto;
+}
+
+.chat_button {
+    border: none;
+    background: lightskyblue;
+    border-radius: 10px;
+    display: flex;
+}

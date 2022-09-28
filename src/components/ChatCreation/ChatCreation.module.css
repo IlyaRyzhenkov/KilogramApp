@@ -1,0 +1,125 @@
+.chat_creation_window {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.chat_name_block {
+    margin: 0px auto;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat_name_title {
+    height: 30px;
+    text-align: center;
+    margin: 5px auto 0px;
+}
+
+.chat_name_field {
+    width: 300px;
+    height: 30px;
+    margin: 0px auto;
+    border: 1px solid #bdbdbd;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.chat_participaints_block {
+    width: 100%;
+    display: flex;
+    height: calc(100% - 170px);
+    flex-direction: column;
+}
+
+.add_participaint_button {
+    margin: 10px auto;
+    width: 150px;
+    height: 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    border: none;
+}
+
+.participaint_name_field {
+    width: 300px;
+    height: 30px;
+    margin: 10px auto;
+    border: 1px solid #bdbdbd;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.control_block {
+    width: 100%;
+    height: 75px;
+    display: flex;
+}
+
+.submit_button {
+    width: 200px;
+    height: 60px;
+    margin-left: 5%;
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.close_button {
+    width: 200px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: 5%;
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.participaints_list {
+    list-style-type: none;
+    margin: 10px auto;
+    width: 300px;
+    height: 100%;
+    padding-left: 0px;
+    overflow-y: auto;
+    border: 3px solid #bdbdbd;
+    border-radius: 5px;
+    background-color: white;
+}
+
+@media screen and (max-width: 310px) {
+    .chat_name_field {
+        width: 90%;
+        margin: 0px 5%;
+    }
+
+    .participaint_name_field {
+        width: 90%;
+        margin: 0px 5%;
+    }
+
+    .participaints_list {
+        width: 90%;
+        margin: 10px 5%;
+    }
+}
+
+@media screen and (max-height: 380px) {
+    .chat_participaints_block {
+        height: 200px;
+    }
+}
+
+.participaints_list_title {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.participaint_element {
+    text-align: center;
+    padding-left: 0px;
+    font-size: 20px;
+}
